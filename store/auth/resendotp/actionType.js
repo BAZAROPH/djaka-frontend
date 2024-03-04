@@ -1,0 +1,4 @@
+export const RESEND_OTP = 'RESEND_OTP';
+export const RESEND_OTP_SUCCESS = 'RESEND_OTP_SUCCESS';
+export const RESEND_OTP_ERROR = 'RESEND_OTP_ERROR';
+export const RESET_RESEND_OTP = 'RESET_RESEND_OTP';

@@ -1,0 +1,4 @@
+export const GET_CITIES = 'GET_CITIES';
+export const GET_CITIES_SUCCESS = 'GET_CITIES_SUCCESS';
+export const GET_CITIES_ERROR = 'GET_CITIES_ERROR';
+export const RESET_GET_CITIES = 'RESET_GET_CITIES';

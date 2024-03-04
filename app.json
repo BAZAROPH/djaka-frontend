@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "runtimeVersion": "1.0.1",
+    "version": "1.0.1",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "name": "Djaka",
+    "slug": "sidle-health",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "799a86c7-e70f-4dbb-b8f1-907738ed26c4"
+      }
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "owner": "bazaroph",
+    "android": {
+      "package": "com.bazaroph.sidlehealth",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.bazaroph.sidlehealth"
+    }
+  }
+}
